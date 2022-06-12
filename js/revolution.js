@@ -9,9 +9,9 @@
       revapi46 = tpj(".rev_slider").show().revolution({
         sliderType: "standard",
         jsFileLocation: "../vendors/revolution/js/",
-        sliderLayout: "fullscreen",
+        sliderLayout: "fullwidth",
         dottedOverlay: "on",
-        delay: 1000,
+        delay: 2000,
         navigation: {
           keyboardNavigation: "off",
           keyboard_direction: "horizontal",
