@@ -140,7 +140,7 @@ Version: 		1.0.0
  *
  * bootstrap-slider is released under the MIT License
  * Copyright (c) 2017 Kyle Kemp, Rohit Kalkur, and contributors
- * 
+ *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
  * files (the "Software"), to deal in the Software without
@@ -149,10 +149,10 @@ Version: 		1.0.0
  * copies of the Software, and to permit persons to whom the
  * Software is furnished to do so, subject to the following
  * conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be
  * included in all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
  * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -13111,4 +13111,45 @@ a.full-width-icon:hover .social-text {
 		padding-bottom: 200%;
 		opacity: 0;
 	}
+}
+
+.company-name-title-header {
+	font-size: 20px;
+	color: #000;
+	font-weight: 800;
+	margin-left: 10px;
+}
+
+@media (max-width: 894px) {
+	.col-md-4.main-button.video-button {
+		margin-left: 7%;
+	}
+
+	.col-md-4.main-button.food-button {
+		height: 51px;
+		margin-left: 11%;
+	}
+
+	.col-md-4.main-button.fare-button {
+		margin-left: 7% !important;
+	}
+
+	.col-md-4.main-button.schedule-button {
+		margin-left: 7%;
+	}
+
+	.col-md-4.main-button.advertise-button {
+		margin-left: 7% !important;
+	}
+
+	.col-md-4.main-button.gallery-button {
+		margin-left: 7%;
+	}
+}
+
+.hidden-wrapper-dom {
+	display: none;
+}
+.modal-open .hidden-wrapper-dom {
+	display: block;
 }
