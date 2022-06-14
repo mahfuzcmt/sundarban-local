@@ -11332,7 +11332,7 @@ a.full-width-icon:hover .social-text {
 
 @media only screen and (min-width: 991px) {
 	.main-header.header-white.transparent {
-		background: transparent;
+		/*background: transparent;*/
 	}
 
 	.main-header.header-white.transparent .navbar .navbar-brand img:first-child {
@@ -11344,11 +11344,11 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.main-header.header-white.transparent .navbar .navbar-nav > li > a {
-		color: #fff;
+		color: black;
 	}
 
 	.main-header.header-white.transparent .navbar-pos-search a.x-search-trigger,.main-header.header-white.transparent .navbar-pos-search .navbar-link {
-		color: #fff;
+		color: black;
 	}
 
 	.main-header.header-white.transparent .navbar-pos-search a.icon-close-round {
