@@ -13114,10 +13114,11 @@ a.full-width-icon:hover .social-text {
 }
 
 .company-name-title-header {
-	font-size: 20px;
 	color: #000;
 	font-weight: 800;
 	margin-left: 10px;
+	width: 100%;
+	text-align: center;
 }
 
 @media (max-width: 894px) {
@@ -13152,4 +13153,8 @@ a.full-width-icon:hover .social-text {
 }
 .modal-open .hidden-wrapper-dom {
 	display: block;
+}
+
+ul.nav.navbar-nav {
+	margin-top: 10px;
 }
